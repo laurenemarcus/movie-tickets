@@ -17,6 +17,10 @@ var Ticket = {
 
     if (this.age === "Adult") {
       this.cost += 2;
+    } else if (this.age === "Child") {
+      this.cost -= 3;
+    } else if (this.age === "Senior") {
+      this.cost -= 5;
     }
 
     return this.cost;

@@ -31,7 +31,7 @@ describe("Ticket", function() {
       testTicket.time = "Evening";
       expect(testTicket.price()).to.equal(13);
     });
-    it("will return a higher cost if the movie goer is an adult", function() {
+    it("will return a lower cost if the movie goer is a child", function() {
       var testTicket = Object.create(Ticket);
       testTicket.age = "Child";
       expect(testTicket.price()).to.equal(7);
@@ -40,6 +40,11 @@ describe("Ticket", function() {
       var testTicket = Object.create(Ticket);
       testTicket.age = "Adult";
       expect(testTicket.price()).to.equal(12);
+    });
+    it("will return a lower cost if the movie goer is a senior", function() {
+      var testTicket = Object.create(Ticket);
+      testTicket.age = "Senior";
+      expect(testTicket.price()).to.equal(5);
     });
   });
 });
