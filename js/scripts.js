@@ -26,3 +26,22 @@ var Ticket = {
     return this.cost;
   }
 };
+
+$(document).ready(function() {
+  $("form#film").submit(function(event) {
+    event.preventDefault();
+
+    var movie = $("input[name=name]:checked").val();
+    var time = $("input[name=time]:checked").val();
+    var age = $("input[name=age]:checked").val();
+
+    var newTicket = Object.create(Ticket);
+
+    newTicket.movie = movie;
+    newTicket.airtime = time;
+    newTicket.age = age;
+
+    $(".price-display").text(newTicket.price());
+debugger;
+  });
+});
