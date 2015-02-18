@@ -9,6 +9,67 @@
 </head>
 <body>
   <div class="container">
+    <h2>Marcus Park Theater</h2>
+    <form id="movies">
+      <div class="col-md-3">
+        <fieldset>
+          <legend>Pick a movie:</legend>
+          <div class="form-group">
+            <label for="movie1">Jurassic World</label>
+            <input type="radio" name="name" value="Jurassic World" id="movie1" checked="checked"/>
+          <br>
+            <label for="movie2">Jurassic World 3D</label>
+            <input type="radio" name="name" value="Jurassic World 3D" id="movie2"/>
+          <br>
+            <label for="movie3">Half Baked</label>
+            <input type="radio" name="name" value="Half Baked" id="movie3"/>
+          </div>
+        </fieldset>
+      </div>
+      <div class="col-md-3">
+        <fieldset>
+          <legend>Pick a time:</legend>
+          <div class="form-group">
+            <label for="time1">Morning</label>
+            <input type="radio" name="time" value="Morning" id="time1" checked="checked"/>
+          <br>
+            <label for="time2">Afternoon</label>
+            <input type="radio" name="time" value="Afternoon" id="time1"/>
+          <br>
+            <label for="time3">Evening</label>
+            <input type="radio" name="time" value="Evening" id="time3"/>
+          </div>
+        </fieldset>
+      </div>
+      <div class="col-md-3">
+        <fieldset>
+          <legend>Pick your age:</legend>
+          <div class="form-group">
+            <label for="child">Child</label>
+            <input type="radio" name="age" value="Child" id="child" checked="checked"/>
+            <br>
+            <label for="adult">Adult</label>
+            <input type="radio" name="age" value="Adult" id="adult"/>
+            <br>
+            <label for="senior">Senior</label>
+            <input type="radio" name="age" value="Senior" id="senior"/>
+          </div>
+        </fieldset>
+      </div>
+      <div class="col-md-9">
+        <hr>
+        <br>
+        <button class="btn btn-primary" type="submit">Calculate</button>
+      </div>
+    </form>
+    <div class="price">
+      <div class="col-md-12">
+      <h3>Ticket Price:</h3>
+        <div id="show-price">
+          <h2>$<span class="price-display"></span></h2>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
