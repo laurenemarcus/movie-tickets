@@ -1,0 +1,6 @@
+.film-strip {
+  background: url(filmstrip.jpg) repeat-x 0 0;
+  height: 20px;
+  background-size: contain;
+
+}
