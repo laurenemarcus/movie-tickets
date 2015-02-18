@@ -42,6 +42,5 @@ $(document).ready(function() {
     newTicket.age = age;
 
     $(".price-display").text(newTicket.price());
-debugger;
   });
 });

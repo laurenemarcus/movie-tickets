@@ -1,6 +1,6 @@
 INTRODUCTION
 ------------
-xxx
+The Movie Ticket app allows a user to select a movie, a time of day, and their age to calculate the movie ticket price.
 
 REQUIREMENTS
 ------------
@@ -14,7 +14,7 @@ Open the following file in directory to launch the app:
 
 KNOWN BUGS
 ---------
-Only accepts integers. Requires both deposit and withdraw fields to be filled.
+No known bugs.
 
 AUTHOR
 -------
