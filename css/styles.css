@@ -4,3 +4,38 @@
   background-size: contain;
 
 }
+
+#show-price {
+
+  background:url(ticket.jpg);
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 10px 20px 10px 35px;
+  margin: 20px 0px 0px 250px;
+  font-family: Impact;
+}
+
+.container {
+  border: 10px groove gray;
+  margin: 10px 20px 10px 10px;
+  padding: 10px 20px 10px 10px;
+  width: 750px;
+  font-family: Arial;
+}
+
+.price-display {
+  display: none;
+}
+
+body {
+  width: 500px;
+}
+
+.marcus-park {
+  font-family: Impact;
+}
+
+.btn {
+  font-family: Arial;
+}

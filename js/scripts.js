@@ -41,6 +41,8 @@ $(document).ready(function() {
     newTicket.airtime = time;
     newTicket.age = age;
 
+    $(".price-display").show();
+
     $(".price-display").text(newTicket.price());
   });
 });
